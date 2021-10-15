@@ -56,24 +56,3 @@ class operation
 	}
 	
 }
-public class LinkList {
-	public static void main(String[] args)
-	{
-		Link l1=new Link(1);
-		Link l2=new Link(2);
-		Link l3=new Link(3);
-		Link l4=new Link(4);
-		// linking list list
-		l1.next=l2;
-		l2.next=l3;
-		l3.next=l4;
-		operation o=new operation();
-		o.print(l1);
-		o.insert(l2,l3,16);
-		o.print(l1);
-		
-		
-			
-	}
-
-}
